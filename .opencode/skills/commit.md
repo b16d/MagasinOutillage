@@ -4,7 +4,7 @@
 Ce skill s'applique avant chaque commit.
 
 ## Règles de branche
-- Vérifier la branche courante avec `git branch --show-current`
+- Vérifier la branche courante avec `git rev-parse --abbrev-ref HEAD`
 - Si on est sur `main` ou `master`, créer une nouvelle branche avant de commiter
 - Nom de branche : suivre le format `{type}/{description-courte}` (ex: `feat/catalogue-product-entity`, `fix/price-validation`)
 - Types autorisés : `feat`, `fix`, `refactor`, `test`, `docs`, `chore`
