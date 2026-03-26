@@ -4,9 +4,10 @@
 Ce skill s'applique avant chaque commit.
 
 ## Règles de branche
-- Vérifier la branche courante avec `git rev-parse --abbrev-ref HEAD`
-- Toute nouvelle tâche doit démarrer depuis `main` : si on n'est pas sur `main`, revenir sur `main` avec `git checkout main` avant de créer la nouvelle branche
-- Créer une nouvelle branche depuis `main` avec `git checkout -b {nom-de-branche}`
+- Avant chaque nouvelle tâche, toujours :
+  1. `git checkout main`
+  2. `git pull`
+  3. `git checkout -b {nom-de-branche}`
 - Nom de branche : suivre le format `{type}/{description-courte}` (ex: `feat/catalogue-product-entity`, `fix/price-validation`)
 - Types autorisés : `feat`, `fix`, `refactor`, `test`, `docs`, `chore`
 
