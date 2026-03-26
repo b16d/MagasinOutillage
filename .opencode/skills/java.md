@@ -24,3 +24,6 @@
 
 ## Imports
 - Toujours explicites (pas de wildcard import java.util.*)
+
+## Interdictions
+- Lombok est interdit — utiliser les records Java 25 à la place des @Data, @Builder, @Getter, etc.

@@ -16,6 +16,7 @@ Back-end d'un service de vente d'outillage en ligne.
 - Langue de la prose (commentaires, messages d'erreur, commits) : français
 - Respecter strictement les règles définies dans chaque skill
 - Toute nouvelle décision d'architecture doit faire l'objet d'un ADR dans `.opencode/adr/`
+- Toute interdiction technologique doit également faire l'objet d'un ADR
 
 ## Skills actifs
 - java
