@@ -26,3 +26,4 @@ Back-end d'un service de vente d'outillage en ligne.
 - Avant chaque commit, créer une branche dédiée avec un nom explicite (ex: feat/catalogue-product-entity)
 - Rédiger le détail du commit : message court (50 chars max) + description des changements
 - Ne jamais faire de push — le push est effectué par l'utilisateur
+- La commande `git push` est interdite (bloquée par la configuration des permissions)
