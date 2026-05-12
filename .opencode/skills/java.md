@@ -24,3 +24,7 @@
 
 ## Imports
 - Toujours explicites (pas de wildcard import java.util.*)
+
+## Interdictions
+- Ne jamais utiliser Lombok (pas d'annotations @Data, @Getter, @Setter, @Builder, @AllArgsConstructor, etc.)
+- Utiliser les Records Java pour les value objects et DTOs à la place de Lombok
