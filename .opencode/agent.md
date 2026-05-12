@@ -8,18 +8,20 @@ Back-end d'un service de vente d'outillage en ligne.
 - Spring Boot 3
 - Maven (group ID : fr.magasinoutillage)
 - Base de données : H2 (in-memory, développement)
+- Migrations : Liquibase (changelogs en YAML)
 - Architecture : Monolithique — Clean Architecture (ports & adapters)
 
 ## Règles générales
 - Langue du code (classes, méthodes, variables) : anglais
 - Langue de la prose (commentaires, messages d'erreur, commits) : français
 - Respecter strictement les règles définies dans chaque skill
+- Toute nouvelle décision d'architecture doit faire l'objet d'un ADR dans `.opencode/adr/`
+- Toute interdiction technologique doit également faire l'objet d'un ADR
 
 ## Skills actifs
 - java
 - spring-boot
 - clean-arch
-- catalogue
 - commit
 
 ## Workflow Git
