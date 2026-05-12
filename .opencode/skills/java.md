@@ -26,4 +26,5 @@
 - Toujours explicites (pas de wildcard import java.util.*)
 
 ## Interdictions
-- Lombok est interdit — utiliser les records Java 25 à la place des @Data, @Builder, @Getter, etc.
+- Ne jamais utiliser Lombok (pas d'annotations @Data, @Getter, @Setter, @Builder, @AllArgsConstructor, etc.)
+- Utiliser les Records Java pour les value objects et DTOs à la place de Lombok
